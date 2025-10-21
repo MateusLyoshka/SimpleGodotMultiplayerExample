@@ -18,6 +18,7 @@ config/icon="res://icon.svg"
 [autoload]
 
 HighLevelNetworkHandler="*res://high_level_example/scripts/high_level_network_handler.gd"
+Lobby="*res://high_level_example_2/scripts/lobby_ui.gd"
 
 [dotnet]
 
