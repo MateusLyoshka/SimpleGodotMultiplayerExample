@@ -9,9 +9,9 @@ extends Control
 func _ready():
 	Lobby.player_connected.connect(_on_player_connected)
 	Lobby.player_disconnected.connect(_on_player_disconnected)
-	
+
 func _on_player_connected(id, info):
-	print("Player connected:", id, info)
+	print("Player connected a:", id, info)
 
 func _on_player_disconnected(id):
 	print("Player disconnected:", id)
